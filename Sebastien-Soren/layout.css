@@ -9,6 +9,8 @@ body
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #2a2731;
   color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img
@@ -20,7 +22,6 @@ header
 {
     background-color: #2a2731;
     margin-top: 2rem;
-   
 }
 
 /* .container {
@@ -79,6 +80,11 @@ nav li
  
 }
 
+.biggrid
+{
+  display: flex;
+}
+
 
 h1
 {
@@ -98,7 +104,8 @@ h2
   padding-top: 2rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
-  margin-top: -5%;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
   margin-left: -1%;
   margin-right: 40%;
 }
@@ -140,11 +147,27 @@ button
   margin-right: 40%;
   color: whitesmoke;
   text-align: center;
+  scale: 200%;
+}
+
+button p
+{
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
 
 
 
-footer
+aside
 {
+  margin: auto;
+  width: 50%;
+}
 
+aside 
+
+aside p
+{
+  margin: 7rem;
 }
