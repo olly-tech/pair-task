@@ -38,7 +38,7 @@ nav a:hover {
 
 
 main p {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
 }
 main ul {
@@ -100,9 +100,6 @@ fieldset {
   background-color: #edd2a7;
   margin: 0.2rem;
 }
-aside {
-}
-
 
 button {
   padding: 0.2rem;
