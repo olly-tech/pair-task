@@ -36,6 +36,7 @@ nav ul, a {
   gap: 10px;
 }
 
+
 nav a:hover {
   cursor: pointer;
   color: #271b08;
