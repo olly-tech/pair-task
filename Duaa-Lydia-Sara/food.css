@@ -16,6 +16,7 @@ body {
 
 img {
     width: 200px;
+    max-height: max-content;
 }
 nav {
   background-color: #fff2b0;
@@ -25,7 +26,17 @@ nav {
 }
 nav ul {
   list-style: none;
+  text-decoration: none;
 }
+
+nav a:hover {
+  cursor: pointer;
+  color: #271b08;
+}
+
+
+
+
 main p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 2rem;
@@ -73,6 +84,11 @@ p {
   padding: 0.3em;
 }
 
+
+h1 {
+  font-size: largest;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /* form styling*/
 /*
 form {
@@ -84,13 +100,14 @@ fieldset {
   background-color: #edd2a7;
   margin: 0.2rem;
 }
-aside
-{
-
+aside {
 }
+
+
 button {
   padding: 0.2rem;
   margin-top: 0.5rem;
+  border: solid black;
 }
 
 /* increase max-width if media query doesn't work */
