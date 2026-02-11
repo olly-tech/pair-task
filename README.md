@@ -1,2 +1,17 @@
-# pair-task
+# Pair Task Project
 
+## Subtitle
+
+### Subsubtitle
+*this is italic*
+**this is bold**
+`code this is code wow`
+---
+
+
+
+
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
